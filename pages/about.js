@@ -1,6 +1,6 @@
 import { sql_query } from "../lib/db";
 //import Table from "./table";
-import Getdata from "./table1";
+import Getdata from "../components/table1";
 
 
 export default function Blog(props) {
