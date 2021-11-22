@@ -1,6 +1,6 @@
 import { createClient } from 'contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
@@ -43,7 +43,7 @@ export default function RecipeDetails({ recipe }) {
   return (
     <div>
       <div className="banner">
-        <Image 
+        <img 
           src={'https:' + featuredImage.fields.file.url}
           width={featuredImage.fields.file.details.image.width}
           height={featuredImage.fields.file.details.image.height}
