@@ -34,7 +34,7 @@ export default function RecipeCard({ recipe }) {
     
       {/*<Table data = {res} />*/}
       <Getdata props = {res} />
-
+     <br/>
 
       </div>
           <style jsx>{`
