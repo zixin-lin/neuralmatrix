@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Table from '../pages/table';
+//import Table from '../pages/table';
 import styles from '../styles/Home.module.css'
-
+import Getdata from '../pages/table1';
 export default function RecipeCard({ recipe }) {
 
   const { title, slug, cookingTime, thumbnail, cvs } = recipe.fields
@@ -32,7 +32,10 @@ export default function RecipeCard({ recipe }) {
       <div className="App">
       <br/>Today Stock Information
     
-      <Table data = {res} />
+      {/*<Table data = {res} />*/}
+      <Getdata props = {res} />
+
+
       </div>
           <style jsx>{`
           .card{
