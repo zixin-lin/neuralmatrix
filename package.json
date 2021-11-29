@@ -6,13 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"npm run build && next export -o _static"
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.5.1",
     "apollo-boost": "^0.4.9",
     "contentful": "^9.1.4",
     "graphql": "^16.0.1",
+    "netlify-identity-widget": "^1.9.2",
     "next": "^12.0.2",
     "react": "17.0.1",
     "react-apollo": "^3.1.5",
